@@ -1,11 +1,11 @@
-# 🧠 Academic Research Assistant (Multi-Agent RAG System)
+#  Academic Research Assistant (Multi-Agent RAG System)
 
-## 📌 Project Overview
+##  Project Overview
 The **Academic Research Assistant** is an advanced multi-agent system designed to streamline literature reviews, analyze research paper corpora, answer complex academic queries, and assist researchers in drafting novel research papers using State-of-the-Art Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG).
 
 ---
 
-## 🏗️ Architecture Diagram
+##  Architecture Diagram
 The following diagram illustrates the high-level architecture of the Multi-Agent RAG pipeline:
 
 ```text
@@ -24,7 +24,7 @@ The following diagram illustrates the high-level architecture of the Multi-Agent
                          [Groq LLM Response Generation & PDF Export]
                          ---
 
-## 📊 Model & Component Comparison Table
+##  Model & Component Comparison Table
 | Component | Selected Model / Tool | Purpose / Functionality |
 | :--- | :--- | :--- |
 | **Large Language Model** | `llama3-70b-8192` (via Groq) | High-speed reasoning, context synthesis, and academic drafting. |
@@ -35,14 +35,14 @@ The following diagram illustrates the high-level architecture of the Multi-Agent
 
 ---
 
-## 🔄 Agent Communication & Workflow
+##  Agent Communication & Workflow
 1. **Corpus Ingestion:** PDFs are loaded via the sidebar, split into chunks, and indexed into the FAISS vector store.
 2. **Retriever Agent:** Performs similarity search against user inputs to extract the most relevant context paragraphs from the loaded corpus.
 3. **Analysis Agent:** Evaluates the retrieved academic content, identifying key methodologies, gaps, and findings.
 4. **Synthesis / Writer Agent:** Synthesizes the final output to answer queries interactively or draft structured academic sections.
 ---
 
-## 🧪 Sample Queries & Evaluation (Top 5)
+##  Sample Queries & Evaluation (Top 5)
 | # | Sample Query | Evaluation / System Response |
 | :--- | :--- | :--- |
 | **1** | *"What is the primary methodology used in the corpus?"* | Successfully extracts core experimental setups and algorithms with high precision. |
@@ -53,7 +53,7 @@ The following diagram illustrates the high-level architecture of the Multi-Agent
 
 ---
 
-## 🚀 Installation & Local Setup
+##  Installation & Local Setup
 
 1. **Clone the repository:**
    ```bash
