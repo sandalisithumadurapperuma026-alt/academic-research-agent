@@ -10,3 +10,4 @@ tiktoken
 reportlab
 langchain-groq
 sentence-transformers
+faiss-cpu
